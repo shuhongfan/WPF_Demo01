@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="NetMeetingExample" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="NetMeetingExample" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="NetMeetingExample/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WcfNetMeeting/MeetingService/?xsd=xsd0" namespace="NetMeetingExample" />
+      <xsd:import schemaLocation="http://localhost:8733/Design_Time_Addresses/WcfNetMeeting/MeetingService/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IMeetingService_EnterRoom_InputMessage">
+    <wsdl:part name="parameters" element="tns:EnterRoom" />
+  </wsdl:message>
+  <wsdl:message name="IMeetingService_Say_InputMessage">
+    <wsdl:part name="parameters" element="tns:Say" />
+  </wsdl:message>
+  <wsdl:message name="IMeetingService_ExitRoom_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExitRoom" />
+  </wsdl:message>
+  <wsdl:portType name="IMeetingService">
+    <wsdl:operation name="EnterRoom">
+      <wsdl:input wsaw:Action="NetMeetingExample/IMeetingService/EnterRoom" message="tns:IMeetingService_EnterRoom_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Say">
+      <wsdl:input wsaw:Action="NetMeetingExample/IMeetingService/Say" message="tns:IMeetingService_Say_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExitRoom">
+      <wsdl:input wsaw:Action="NetMeetingExample/IMeetingService/ExitRoom" message="tns:IMeetingService_ExitRoom_InputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

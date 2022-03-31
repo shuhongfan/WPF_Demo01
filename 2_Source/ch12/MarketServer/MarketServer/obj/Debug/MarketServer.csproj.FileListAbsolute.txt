@@ -1,0 +1,16 @@
+E:\mj\V3Network\V3Source\ch12\MarketServer\MarketServer\bin\MarketServer.dll
+E:\mj\V3Network\V3Source\ch12\MarketServer\MarketServer\bin\MarketServer.pdb
+E:\mj\V3Network\V3Source\ch12\MarketServer\MarketServer\bin\EntityFramework.dll
+E:\mj\V3Network\V3Source\ch12\MarketServer\MarketServer\bin\EntityFramework.xml
+E:\mj\V3Network\V3Source\ch12\MarketServer\MarketServer\bin\zh-Hans\EntityFramework.resources.dll
+E:\mj\V3Network\V3Source\ch12\MarketServer\MarketServer\obj\Debug\MarketServer.csprojResolveAssemblyReference.cache
+E:\mj\V3Network\V3Source\ch12\MarketServer\MarketServer\obj\Debug\MarketServer.dll
+E:\mj\V3Network\V3Source\ch12\MarketServer\MarketServer\obj\Debug\MarketServer.pdb
+E:\mj\V3Network\2_Source\ch12\MarketServer\MarketServer\bin\MarketServer.dll
+E:\mj\V3Network\2_Source\ch12\MarketServer\MarketServer\bin\MarketServer.pdb
+E:\mj\V3Network\2_Source\ch12\MarketServer\MarketServer\bin\EntityFramework.dll
+E:\mj\V3Network\2_Source\ch12\MarketServer\MarketServer\bin\EntityFramework.xml
+E:\mj\V3Network\2_Source\ch12\MarketServer\MarketServer\bin\zh-Hans\EntityFramework.resources.dll
+E:\mj\V3Network\2_Source\ch12\MarketServer\MarketServer\obj\Debug\MarketServer.csprojResolveAssemblyReference.cache
+E:\mj\V3Network\2_Source\ch12\MarketServer\MarketServer\obj\Debug\MarketServer.dll
+E:\mj\V3Network\2_Source\ch12\MarketServer\MarketServer\obj\Debug\MarketServer.pdb

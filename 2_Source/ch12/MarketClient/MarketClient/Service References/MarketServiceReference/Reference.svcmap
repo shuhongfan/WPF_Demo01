@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="23d2b901-81cc-46cb-b278-6981b1020860" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49479/MarketService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MarketService.xsd" MetadataType="Schema" ID="0a30cb05-1637-4edb-bf1d-a0ea5914b1b4" SourceId="1" SourceUrl="http://localhost:49479/MarketService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MarketService.wsdl" MetadataType="Wsdl" ID="77ef6f09-3688-45a2-a062-7f68667e8b05" SourceId="1" SourceUrl="http://localhost:49479/MarketService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="MarketService1.wsdl" MetadataType="Wsdl" ID="3171f6c9-09b0-40d2-a0b2-22d0857cbf65" SourceId="1" SourceUrl="http://localhost:49479/MarketService.svc?wsdl" />
+    <MetadataFile FileName="MarketService.disco" MetadataType="Disco" ID="1089eddc-78ec-456d-9d8e-6873b0e1a618" SourceId="1" SourceUrl="http://localhost:49479/MarketService.svc?disco" />
+    <MetadataFile FileName="MarketService1.xsd" MetadataType="Schema" ID="9b6cf94a-aa2b-4787-9b87-8bc0a04ce47e" SourceId="1" SourceUrl="http://localhost:49479/MarketService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

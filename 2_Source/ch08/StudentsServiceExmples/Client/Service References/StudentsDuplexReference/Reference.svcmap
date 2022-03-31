@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0cc9db56-5943-411e-a2d1-2bf9b9460747" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49708/StudentsDuplex.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StudentsDuplex.wsdl" MetadataType="Wsdl" ID="db66d5cd-3343-46fb-9565-1f42bc1cb592" SourceId="1" SourceUrl="http://localhost:49708/StudentsDuplex.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="StudentsDuplex.disco" MetadataType="Disco" ID="f79a95a6-fce1-4e6a-b2ab-a5c3f8f40202" SourceId="1" SourceUrl="http://localhost:49708/StudentsDuplex.svc?disco" />
+    <MetadataFile FileName="StudentsDuplex1.wsdl" MetadataType="Wsdl" ID="8adc9deb-f1e0-4d62-85c2-f6aa1cb03188" SourceId="1" SourceUrl="http://localhost:49708/StudentsDuplex.svc?wsdl" />
+    <MetadataFile FileName="StudentsDuplex.xsd" MetadataType="Schema" ID="798f5865-98f9-4a4e-a8dc-ceaf4f3ae3a2" SourceId="1" SourceUrl="http://localhost:49708/StudentsDuplex.svc?xsd=xsd0" />
+    <MetadataFile FileName="StudentsDuplex1.xsd" MetadataType="Schema" ID="6be16677-ddcc-49e2-867b-e42efb31b95e" SourceId="1" SourceUrl="http://localhost:49708/StudentsDuplex.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

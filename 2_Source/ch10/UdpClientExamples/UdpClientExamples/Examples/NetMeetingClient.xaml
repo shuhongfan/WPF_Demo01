@@ -1,0 +1,33 @@
+﻿<Window x:Class="UdpClientExamples.Examples.NetMeetingClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NetMeetingClient" Height="260" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.ColumnSpan="2" Margin="10 0 0 0" Orientation="Horizontal" VerticalAlignment="Center">
+            <Label Content="用户名："/>
+            <TextBox Name="textBoxUserName" Width="80" VerticalAlignment="Center"/>
+            <Button Name="btnLogin" Content="登录（进入会议室）" Margin="20 0 0 0" Click="btnLogin_Click" />
+            <Button Name="btnLogout" Content="退出" Padding="10 0 10 0" Margin="20 0 0 0" Click="btnLogout_Click" />
+        </StackPanel>
+        <GroupBox Grid.Row="1" Header="会议室成员">
+            <ListBox Name="listBox1" />
+        </GroupBox>
+        <GroupBox Grid.Row="1" Grid.Column="1" Header="发言内容">
+            <ListBox Name="listBox2" />
+        </GroupBox>
+        <DockPanel Grid.Row="2" Grid.ColumnSpan="2">
+            <Label Content="发言：" VerticalAlignment="Center"/>
+            <Button Name="btnSend" DockPanel.Dock="Right" Content="发送" Margin="5 0 5 0" Padding="5 0 5 0" VerticalAlignment="Center" Click="btnSend_Click" />
+            <TextBox Name="textBoxTalk" VerticalAlignment="Center"/>
+        </DockPanel>
+    </Grid>
+</Window>

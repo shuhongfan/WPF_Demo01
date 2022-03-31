@@ -1,0 +1,15 @@
+E:\V3Network\V3Source\ch08\StudentsServiceExmples\Service\bin\Service.dll
+E:\V3Network\V3Source\ch08\StudentsServiceExmples\Service\bin\Service.pdb
+E:\V3Network\V3Source\ch08\StudentsServiceExmples\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+E:\V3Network\V3Source\ch08\StudentsServiceExmples\Service\obj\Debug\Service.dll
+E:\V3Network\V3Source\ch08\StudentsServiceExmples\Service\obj\Debug\Service.pdb
+E:\mj\V3Network\V3Source\ch08\StudentsServiceExmples\Service\bin\Service.dll
+E:\mj\V3Network\V3Source\ch08\StudentsServiceExmples\Service\bin\Service.pdb
+E:\mj\V3Network\V3Source\ch08\StudentsServiceExmples\Service\obj\Debug\Service.dll
+E:\mj\V3Network\V3Source\ch08\StudentsServiceExmples\Service\obj\Debug\Service.pdb
+E:\mj\V3Network\V3Source\ch08\StudentsServiceExmples\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+E:\mj\V3Network\源程序\ch08\StudentsServiceExmples\Service\bin\Service.dll
+E:\mj\V3Network\源程序\ch08\StudentsServiceExmples\Service\bin\Service.pdb
+E:\mj\V3Network\源程序\ch08\StudentsServiceExmples\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+E:\mj\V3Network\源程序\ch08\StudentsServiceExmples\Service\obj\Debug\Service.dll
+E:\mj\V3Network\源程序\ch08\StudentsServiceExmples\Service\obj\Debug\Service.pdb

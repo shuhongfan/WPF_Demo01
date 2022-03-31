@@ -1,0 +1,6 @@
+E:\mj\V3Network\V3Source\FuLuA\Experiment4\ChatServer\obj\Debug\ChatServer.csprojResolveAssemblyReference.cache
+E:\mj\V3Network\V3Source\FuLuA\Experiment4\ChatServer\bin\Debug\ChatServer.dll.config
+E:\mj\V3Network\V3Source\FuLuA\Experiment4\ChatServer\bin\Debug\ChatServer.dll
+E:\mj\V3Network\V3Source\FuLuA\Experiment4\ChatServer\bin\Debug\ChatServer.pdb
+E:\mj\V3Network\V3Source\FuLuA\Experiment4\ChatServer\obj\Debug\ChatServer.dll
+E:\mj\V3Network\V3Source\FuLuA\Experiment4\ChatServer\obj\Debug\ChatServer.pdb

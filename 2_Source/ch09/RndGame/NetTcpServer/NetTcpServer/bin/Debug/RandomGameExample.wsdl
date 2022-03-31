@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:tns="RandomGameExample" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="RandomGameExample" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="RandomGameExample/Imports">
+      <xsd:import namespace="RandomGameExample" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IRndGameService_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_Logout_InputMessage">
+    <wsdl:part name="parameters" element="tns:Logout" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_SitDown_InputMessage">
+    <wsdl:part name="parameters" element="tns:SitDown" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_GetUp_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUp" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_Start_InputMessage">
+    <wsdl:part name="parameters" element="tns:Start" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_SetLevel_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetLevel" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_Talk_InputMessage">
+    <wsdl:part name="parameters" element="tns:Talk" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_UnsetDot_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnsetDot" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_CreateRoom_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:CreateRoom" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_ShowUserCount_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowUserCount" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_ShowStart_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowStart" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_ShowTalk_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowTalk" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_ShowWin_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowWin" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_UpdateLevel_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLevel" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_UpdateTables_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTables" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_UserSitDown_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:UserSitDown" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_UserGetUp_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:UserGetUp" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_GridSetDot_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GridSetDot" />
+  </wsdl:message>
+  <wsdl:message name="IRndGameService_GridUnsetDot_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GridUnsetDot" />
+  </wsdl:message>
+  <wsdl:portType msc:usingSession="true" name="IRndGameService">
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Login">
+      <wsdl:input wsaw:Action="RandomGameExample/IRndGameService/Login" message="tns:IRndGameService_Login_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Logout">
+      <wsdl:input wsaw:Action="RandomGameExample/IRndGameService/Logout" message="tns:IRndGameService_Logout_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SitDown">
+      <wsdl:input wsaw:Action="RandomGameExample/IRndGameService/SitDown" message="tns:IRndGameService_SitDown_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="GetUp">
+      <wsdl:input wsaw:Action="RandomGameExample/IRndGameService/GetUp" message="tns:IRndGameService_GetUp_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Start">
+      <wsdl:input wsaw:Action="RandomGameExample/IRndGameService/Start" message="tns:IRndGameService_Start_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SetLevel">
+      <wsdl:input wsaw:Action="RandomGameExample/IRndGameService/SetLevel" message="tns:IRndGameService_SetLevel_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Talk">
+      <wsdl:input wsaw:Action="RandomGameExample/IRndGameService/Talk" message="tns:IRndGameService_Talk_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="UnsetDot">
+      <wsdl:input wsaw:Action="RandomGameExample/IRndGameService/UnsetDot" message="tns:IRndGameService_UnsetDot_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="CreateRoom">
+      <wsdl:output wsaw:Action="RandomGameExample/IRndGameService/CreateRoom" message="tns:IRndGameService_CreateRoom_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowUserCount">
+      <wsdl:output wsaw:Action="RandomGameExample/IRndGameService/ShowUserCount" message="tns:IRndGameService_ShowUserCount_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowStart">
+      <wsdl:output wsaw:Action="RandomGameExample/IRndGameService/ShowStart" message="tns:IRndGameService_ShowStart_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowTalk">
+      <wsdl:output wsaw:Action="RandomGameExample/IRndGameService/ShowTalk" message="tns:IRndGameService_ShowTalk_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowWin">
+      <wsdl:output wsaw:Action="RandomGameExample/IRndGameService/ShowWin" message="tns:IRndGameService_ShowWin_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="UpdateLevel">
+      <wsdl:output wsaw:Action="RandomGameExample/IRndGameService/UpdateLevel" message="tns:IRndGameService_UpdateLevel_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="UpdateTables">
+      <wsdl:output wsaw:Action="RandomGameExample/IRndGameService/UpdateTables" message="tns:IRndGameService_UpdateTables_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="UserSitDown">
+      <wsdl:output wsaw:Action="RandomGameExample/IRndGameService/UserSitDown" message="tns:IRndGameService_UserSitDown_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="UserGetUp">
+      <wsdl:output wsaw:Action="RandomGameExample/IRndGameService/UserGetUp" message="tns:IRndGameService_UserGetUp_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="GridSetDot">
+      <wsdl:output wsaw:Action="RandomGameExample/IRndGameService/GridSetDot" message="tns:IRndGameService_GridSetDot_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="GridUnsetDot">
+      <wsdl:output wsaw:Action="RandomGameExample/IRndGameService/GridUnsetDot" message="tns:IRndGameService_GridUnsetDot_OutputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DefaultBinding_IRndGameService" type="tns:IRndGameService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/Logout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="SitDown">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/SitDown" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="GetUp">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/GetUp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="Start">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/Start" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="SetLevel">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/SetLevel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="Talk">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/Talk" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="UnsetDot">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/UnsetDot" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="CreateRoom">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/CreateRoom" style="document" />
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowUserCount">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/ShowUserCount" style="document" />
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowStart">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/ShowStart" style="document" />
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowTalk">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/ShowTalk" style="document" />
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowWin">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/ShowWin" style="document" />
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLevel">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/UpdateLevel" style="document" />
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTables">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/UpdateTables" style="document" />
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserSitDown">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/UserSitDown" style="document" />
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserGetUp">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/UserGetUp" style="document" />
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GridSetDot">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/GridSetDot" style="document" />
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GridUnsetDot">
+      <soap:operation soapAction="RandomGameExample/IRndGameService/GridUnsetDot" style="document" />
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

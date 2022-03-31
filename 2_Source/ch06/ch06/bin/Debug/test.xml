@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <姓名>张三</姓名>
+  <Score>
+    <体育>85</体育>
+    <语文>86</语文>
+    <!--英语包括四级和六级-->
+    <英语>
+      <Course1 Level="4">87</Course1>
+      <Course2 Level="6">77</Course2>
+    </英语>
+    <数据结构>85</数据结构>
+    <数学>80</数学>
+  </Score>
+</root>

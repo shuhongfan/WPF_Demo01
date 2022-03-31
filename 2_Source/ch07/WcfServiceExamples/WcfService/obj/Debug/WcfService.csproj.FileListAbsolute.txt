@@ -1,0 +1,15 @@
+E:\V3Network\V3Source\ch08\WcfServiceExamples\WcfService\bin\WcfService.dll
+E:\V3Network\V3Source\ch08\WcfServiceExamples\WcfService\bin\WcfService.pdb
+E:\V3Network\V3Source\ch08\WcfServiceExamples\WcfService\obj\Debug\WcfService.dll
+E:\V3Network\V3Source\ch08\WcfServiceExamples\WcfService\obj\Debug\WcfService.pdb
+E:\V3Network\V3Source\ch08\WcfServiceExamples\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+E:\V3Network\V3Source\ch07\WcfServiceExamples\WcfService\bin\WcfService.dll
+E:\V3Network\V3Source\ch07\WcfServiceExamples\WcfService\bin\WcfService.pdb
+E:\V3Network\V3Source\ch07\WcfServiceExamples\WcfService\obj\Debug\WcfService.dll
+E:\V3Network\V3Source\ch07\WcfServiceExamples\WcfService\obj\Debug\WcfService.pdb
+E:\V3Network\V3Source\ch07\WcfServiceExamples\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+E:\mj\V3Network\V3Source\ch07\WcfServiceExamples\WcfService\bin\WcfService.dll
+E:\mj\V3Network\V3Source\ch07\WcfServiceExamples\WcfService\bin\WcfService.pdb
+E:\mj\V3Network\V3Source\ch07\WcfServiceExamples\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+E:\mj\V3Network\V3Source\ch07\WcfServiceExamples\WcfService\obj\Debug\WcfService.dll
+E:\mj\V3Network\V3Source\ch07\WcfServiceExamples\WcfService\obj\Debug\WcfService.pdb

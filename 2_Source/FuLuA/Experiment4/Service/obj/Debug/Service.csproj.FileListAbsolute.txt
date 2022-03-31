@@ -1,0 +1,7 @@
+E:\mj\V3Network\V3Source\FuLuA\Experiment3\Service\bin\Service.dll
+E:\mj\V3Network\V3Source\FuLuA\Experiment3\Service\bin\Service.pdb
+E:\mj\V3Network\V3Source\FuLuA\Experiment3\Service\obj\Debug\Service.dll
+E:\mj\V3Network\V3Source\FuLuA\Experiment3\Service\obj\Debug\Service.pdb
+E:\mj\V3Network\V3Source\FuLuA\Experiment3\Service\bin\DownloadFiles\img1.jpg
+E:\mj\V3Network\V3Source\FuLuA\Experiment3\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+E:\mj\V3Network\V3Source\FuLuA\Experiment3\Service\bin\DownloadFiles\img2.jpg

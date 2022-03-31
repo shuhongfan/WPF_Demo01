@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{4781A3B5-22C6-4559-B36C-4018DAA4C849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{2F8AC278-DFCA-45BF-80BA-C8515F164CA7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4781A3B5-22C6-4559-B36C-4018DAA4C849} = {4781A3B5-22C6-4559-B36C-4018DAA4C849}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4781A3B5-22C6-4559-B36C-4018DAA4C849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4781A3B5-22C6-4559-B36C-4018DAA4C849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4781A3B5-22C6-4559-B36C-4018DAA4C849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4781A3B5-22C6-4559-B36C-4018DAA4C849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F8AC278-DFCA-45BF-80BA-C8515F164CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F8AC278-DFCA-45BF-80BA-C8515F164CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F8AC278-DFCA-45BF-80BA-C8515F164CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F8AC278-DFCA-45BF-80BA-C8515F164CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

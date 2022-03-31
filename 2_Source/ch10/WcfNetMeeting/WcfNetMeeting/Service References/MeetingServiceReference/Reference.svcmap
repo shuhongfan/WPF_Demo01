@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="20e1226d-900d-4508-bdb1-ceb2785100d4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/WcfNetMeeting/MeetingService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="22dbdbec-e14a-4859-a1f9-ed384612c046" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfNetMeeting/MeetingService/?xsd=xsd1" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="fe4d4211-e81c-481e-bb91-57daa5412704" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfNetMeeting/MeetingService/?xsd=xsd0" />
+    <MetadataFile FileName="MainWindow.wsdl" MetadataType="Wsdl" ID="1cd1bad1-6107-4f91-af61-65b84890c05a" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfNetMeeting/MeetingService/?wsdl" />
+    <MetadataFile FileName="item.wsdl" MetadataType="Wsdl" ID="1ba4402d-b007-42dd-a725-4bbbc8f61f2f" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfNetMeeting/MeetingService/?wsdl=wsdl0" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="f46ad357-1c4a-4b6e-9e74-fbf65746149b" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WcfNetMeeting/MeetingService/?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

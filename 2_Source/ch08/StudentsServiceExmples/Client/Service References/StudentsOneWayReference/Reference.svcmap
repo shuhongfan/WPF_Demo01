@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c679ef7a-7b44-41d9-bc25-7324f4383298" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49708/StudentsOneWay.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StudentsOneWay.xsd" MetadataType="Schema" ID="ed849f3c-ae3f-4dc7-8bb7-6e8b10d963fc" SourceId="1" SourceUrl="http://localhost:49708/StudentsOneWay.svc?xsd=xsd1" />
+    <MetadataFile FileName="StudentsOneWay.disco" MetadataType="Disco" ID="e39f45db-dcba-4323-9f0d-624361d80b72" SourceId="1" SourceUrl="http://localhost:49708/StudentsOneWay.svc?disco" />
+    <MetadataFile FileName="StudentsOneWay1.xsd" MetadataType="Schema" ID="b4ca18b9-f670-40d4-a041-baf18436f95a" SourceId="1" SourceUrl="http://localhost:49708/StudentsOneWay.svc?xsd=xsd0" />
+    <MetadataFile FileName="StudentsOneWay.wsdl" MetadataType="Wsdl" ID="bad7dd0b-3cd0-4442-a864-052cfb1cc519" SourceId="1" SourceUrl="http://localhost:49708/StudentsOneWay.svc?wsdl" />
+    <MetadataFile FileName="StudentsOneWay2.xsd" MetadataType="Schema" ID="98409044-db28-45bf-98d6-f826263cbe5d" SourceId="1" SourceUrl="http://localhost:49708/StudentsOneWay.svc?xsd=xsd2" />
+    <MetadataFile FileName="StudentsOneWay1.wsdl" MetadataType="Wsdl" ID="c7f57ff8-72f7-43d3-8aac-c2df2cd82065" SourceId="1" SourceUrl="http://localhost:49708/StudentsOneWay.svc?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

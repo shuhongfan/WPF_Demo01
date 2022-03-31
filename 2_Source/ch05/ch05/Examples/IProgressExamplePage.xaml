@@ -1,0 +1,30 @@
+﻿<Page x:Class="ch05.Examples.IProgressExamplePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="IProgressExamplePage">
+    <DockPanel>
+        <Label DockPanel.Dock="Top" Content="获取任务执行进度的基本用法" Style="{StaticResource LabelStyle}"/>
+        <Border DockPanel.Dock="Bottom" Style="{StaticResource BorderStyle}">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Name="btnStart" Width="70" Content="启动任务" Click="btnStart_Click"/>
+                <Button Name="btnCancel" Margin="20 0 0 0" Width="90" Content="取消任务执行" Click="btnCancel_Click"/>
+            </StackPanel>
+        </Border>
+        <StackPanel>
+            <TextBlock Margin="0 10 0 0" Text="任务1（可取消）："/>
+            <Grid Background="White">
+                <ProgressBar Name="progressBar1" Background="AliceBlue" Height="20" Margin="10" />
+                <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <TextBlock Text="任务2（不可取消）："/>
+            <Grid Background="White">
+                <ProgressBar Name="progressBar2" Background="AliceBlue" Height="20" Margin="10" />
+                <TextBlock x:Name="textBlock2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+        </StackPanel>
+    </DockPanel>
+</Page>

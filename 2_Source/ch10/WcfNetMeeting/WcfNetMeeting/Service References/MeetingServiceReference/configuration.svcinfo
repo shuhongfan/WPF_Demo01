@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.UdpBindingElement, System.ServiceModel.Channels, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;UdpBinding_IMeetingService&quot; /&gt;" bindingType="udpBinding" name="UdpBinding_IMeetingService" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;soap.udp://224.0.0.1:8000/MeetingService/&quot; binding=&quot;udpBinding&quot; bindingConfiguration=&quot;UdpBinding_IMeetingService&quot; contract=&quot;MeetingServiceReference.IMeetingService&quot; name=&quot;UdpBinding_IMeetingService&quot;&gt;&lt;identity&gt;&lt;dns value=&quot;localhost&quot; /&gt;&lt;/identity&gt;&lt;/Data&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;soap.udp://224.0.0.1:8000/MeetingService/&quot; binding=&quot;udpBinding&quot; bindingConfiguration=&quot;UdpBinding_IMeetingService&quot; contract=&quot;MeetingServiceReference.IMeetingService&quot; name=&quot;UdpBinding_IMeetingService&quot;&gt;&lt;identity&gt;&lt;dns value=&quot;localhost&quot; /&gt;&lt;/identity&gt;&lt;/Data&gt;" contractName="MeetingServiceReference.IMeetingService" name="UdpBinding_IMeetingService" />
+  </endpoints>
+</configurationSnapshot>

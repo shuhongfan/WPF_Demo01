@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="029e31cc-c142-4f93-ae6f-fa8bb31758ae" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/RndGameService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="b1c54f57-c074-4a76-b64d-cb4a8fd61208" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RndGameService/?xsd=xsd0" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="a138e308-4750-48e8-82e4-aeb041f29d01" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RndGameService/?disco" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="8849b8c7-c8ea-4b15-98d1-aa9aab48abbc" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RndGameService/?xsd=xsd1" />
+    <MetadataFile FileName="RndGameService.wsdl" MetadataType="Wsdl" ID="5cef21cb-2d6f-4d19-817e-7b3dc3907093" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RndGameService/?wsdl" />
+    <MetadataFile FileName="item.wsdl" MetadataType="Wsdl" ID="3046962a-bda3-4fce-9ee0-7448c837d25b" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/RndGameService/?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

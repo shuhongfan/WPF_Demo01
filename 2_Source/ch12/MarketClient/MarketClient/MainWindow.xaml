@@ -1,0 +1,64 @@
+﻿<Window x:Class="MarketClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="商场服务系统客户端（示例）" Height="600" Width="1000" Background="#FFF0F9D8" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Rectangle Margin="5" Fill="#FFF0F9D8"
+                Stroke="Blue" StrokeDashArray="3" />
+        <Expander ExpandDirection="Right"
+                 Margin="10"
+                 IsExpanded="True">
+            <ScrollViewer>
+                <StackPanel Background="White">
+                    <StackPanel.Resources>
+                        <Style TargetType="Button">
+                            <Setter Property="Margin" Value="10 5 10 0" />
+                            <Setter Property="Padding" Value="10 0 10 0"/>
+                            <Setter Property="BorderBrush" Value="{x:Null}"/>
+                            <Setter Property="Foreground" Value="Blue"/>
+                            <Setter Property="Background" Value="Transparent"/>
+                            <EventSetter Event="Click" Handler="button_Click" />
+                        </Style>
+                        <Style TargetType="Expander">
+                            <Setter Property="Background" Value="AliceBlue"/>
+                            <Setter Property="IsExpanded" Value="True"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <Expander Header="管理员">
+                        <StackPanel Background="White">
+                            <Button Content="动态绘图" Tag="/Manager/InkPage.xaml"/>
+                            <Button Content="监控查看" Tag="/Manager/Monitor.xaml" />
+                        </StackPanel>
+                    </Expander>
+                    <Expander Header="结算员">
+                        <StackPanel Background="White">
+                            <Button Content="购物结算" Tag="/Account/CurrentSales.xaml" />
+                            <Button Content="当日统计" Tag="/Account/CurrentDaySales.xaml" />
+                        </StackPanel>
+                    </Expander>
+                    <Expander Header="顾客">
+                        <StackPanel Background="White">
+                            <Button Content="商场概览" Tag="/Customer/MarketGuide.xaml" />
+                            <Button Content="促销活动" Tag="/Customer/Promotions.xaml" />
+                        </StackPanel>
+                    </Expander>
+                    <Expander Header="辅助功能">
+                        <StackPanel Background="White">
+                            <Button Content="密码修改" Tag="/Common/ChangePassword.xaml" />
+                            <Button Content="操作帮助" Tag="/Common/Help.xaml" />
+                        </StackPanel>
+                    </Expander>
+                </StackPanel>
+            </ScrollViewer>
+        </Expander>
+        <Frame Name="frame1" Grid.Column="1" Margin="5"
+               Background="White"
+               BorderThickness="1" BorderBrush="Blue"
+               NavigationUIVisibility="Hidden"
+               Source="/Common/StartPage.xaml"/>
+    </Grid>
+</Window>

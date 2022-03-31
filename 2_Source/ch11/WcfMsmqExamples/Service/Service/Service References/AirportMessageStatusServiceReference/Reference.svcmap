@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1d0a2093-d4ec-4433-9bb6-93002a45436c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/AirportMessageStatusService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.wsdl" MetadataType="Wsdl" ID="0ef6edc0-1757-4493-a01c-9b9fc6021755" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/AirportMessageStatusService/?wsdl=wsdl0" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="eb247546-b114-4b31-8219-7ad6ebccd3f2" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/AirportMessageStatusService/?xsd=xsd0" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="5726b52f-16a1-4618-aa3d-4a82e9111cbd" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/AirportMessageStatusService/?disco" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="0b5c8d98-92fe-4465-aec6-65b6c9ae9a0c" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/AirportMessageStatusService/?xsd=xsd1" />
+    <MetadataFile FileName="AirportMessageStatusService.wsdl" MetadataType="Wsdl" ID="5c63a9ce-1a78-4516-acf8-9e0c81cb3618" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/AirportMessageStatusService/?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

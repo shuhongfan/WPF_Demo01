@@ -1,0 +1,40 @@
+﻿<Page x:Class="MarketClient.Manager.Monitor"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:my="clr-namespace:MarketClient.Inks"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="600"
+	Title="Monitor">
+    <Grid Background="Beige">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Label Content="监控查看" HorizontalAlignment="Center"/>
+        <my:MyInkCanvas x:Name="ink1" Grid.Row="1"/>
+        <DockPanel Grid.Row="2" Background="White">
+            <Separator DockPanel.Dock="Top"/>
+            <StackPanel Margin="0 5 0 5" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <StackPanel.Resources>
+                    <Style TargetType="Button">
+                        <Setter Property="Margin" Value="5 0 5 0"/>
+                        <Setter Property="BorderBrush" Value="{x:Null}"/>
+                        <Setter Property="Foreground" Value="Blue"/>
+                        <Setter Property="Background" Value="Transparent"/>
+                        <EventSetter Event="Button.Click" Handler="Button_Click"/>
+                    </Style>
+                </StackPanel.Resources>
+                <TextBlock Text="单击查看大图：" VerticalAlignment="Center"/>
+                <Button Content="一楼" Tag="Video1.wmv"/>
+                <Button Content="二楼" Tag="Video2.wmv"/>
+                <Button Content="三楼" Tag="Video3.wmv"/>
+                <Button Content="四楼" Tag="Video4.wmv"/>
+            </StackPanel>
+        </DockPanel>
+        <MediaElement Name="media1" Grid.Row="3" Stretch="Uniform" Source="/Manager/Videos/Video2.wmv"/>
+    </Grid>
+</Page>

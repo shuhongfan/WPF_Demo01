@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="MarketExample" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="MarketExample" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="MarketExample/Imports">
+      <xsd:import schemaLocation="http://localhost:49479/MarketService.svc?xsd=xsd0" namespace="MarketExample" />
+      <xsd:import schemaLocation="http://localhost:49479/MarketService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IMarketService_GetNewId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewId" />
+  </wsdl:message>
+  <wsdl:message name="IMarketService_GetNewId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarketService_SaveCurrentSale_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveCurrentSale" />
+  </wsdl:message>
+  <wsdl:message name="IMarketService_SaveCurrentSale_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveCurrentSaleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarketService_GetCurrentDaySale_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentDaySale" />
+  </wsdl:message>
+  <wsdl:message name="IMarketService_GetCurrentDaySale_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentDaySaleResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IMarketService">
+    <wsdl:operation name="GetNewId">
+      <wsdl:input wsaw:Action="MarketExample/IMarketService/GetNewId" message="tns:IMarketService_GetNewId_InputMessage" />
+      <wsdl:output wsaw:Action="MarketExample/IMarketService/GetNewIdResponse" message="tns:IMarketService_GetNewId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveCurrentSale">
+      <wsdl:input wsaw:Action="MarketExample/IMarketService/SaveCurrentSale" message="tns:IMarketService_SaveCurrentSale_InputMessage" />
+      <wsdl:output wsaw:Action="MarketExample/IMarketService/SaveCurrentSaleResponse" message="tns:IMarketService_SaveCurrentSale_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentDaySale">
+      <wsdl:input wsaw:Action="MarketExample/IMarketService/GetCurrentDaySale" message="tns:IMarketService_GetCurrentDaySale_InputMessage" />
+      <wsdl:output wsaw:Action="MarketExample/IMarketService/GetCurrentDaySaleResponse" message="tns:IMarketService_GetCurrentDaySale_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

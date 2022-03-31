@@ -1,0 +1,41 @@
+﻿<Page x:Class="ch06.Examples.ParallelInvokeExample2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="ParallelInvokeExample2">
+    <Page.Resources>
+        <Image x:Key="a0" Source="/images/a0.jpg"/>
+        <Image x:Key="a1" Source="/images/a1.jpg"/>
+        <Image x:Key="a2" Source="/images/a2.jpg"/>
+        <Image x:Key="a3" Source="/images/a3.jpg"/>
+        <Image x:Key="a4" Source="/images/a4.jpg"/>
+        <Image x:Key="a5" Source="/images/a5.jpg"/>
+    </Page.Resources>
+    <DockPanel>
+        <Border DockPanel.Dock="Top" Style="{StaticResource BorderStyle}">
+            <TextBlock Text="Parallel.Invoke方法的基本用法2" Style="{StaticResource TitleStyle}"/>
+        </Border>
+        <Border DockPanel.Dock="Bottom" Style="{StaticResource BorderStyle}">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Height="20">
+                <Button Name="btnStart" Padding="10 0" Content="运行（请多次单击观察）" Click="btnStart_Click"/>
+            </StackPanel>
+        </Border>
+        <Grid Name="grid1" Background="White">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+    </DockPanel>
+</Page>

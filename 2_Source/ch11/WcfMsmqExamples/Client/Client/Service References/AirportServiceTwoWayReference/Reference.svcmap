@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ec309b9f-7a2b-41b2-aa4c-0a1ddc3a9294" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/AirportServiceTwoWay/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="05aba203-2bf7-4180-a0eb-0ab50224c8d5" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/AirportServiceTwoWay/?disco" />
+    <MetadataFile FileName="AirportServiceTwoWay.wsdl" MetadataType="Wsdl" ID="12112c9f-b23c-4dff-81c7-28e4be106d24" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/AirportServiceTwoWay/?wsdl" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="049bd288-9f7a-48f9-9d42-ac1361205cb2" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/AirportServiceTwoWay/?xsd=xsd1" />
+    <MetadataFile FileName="item.wsdl" MetadataType="Wsdl" ID="e24a7fee-c9d1-442e-8d32-92de6cf3199a" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/AirportServiceTwoWay/?wsdl=wsdl0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="16c828aa-569d-4492-b23b-9e02c593d2d0" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/AirportServiceTwoWay/?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

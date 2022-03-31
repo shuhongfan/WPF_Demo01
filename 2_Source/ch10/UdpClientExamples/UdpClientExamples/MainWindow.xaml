@@ -1,0 +1,10 @@
+﻿<Window x:Class="UdpClientExamples.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="UDP示例" Height="160" Width="220" WindowStartupLocation="CenterScreen">
+    <StackPanel>
+        <Button Content="例1-单播" Margin="10 20 10 5" Width="100" Click="btn1_click"/>
+        <Button Content="例2-多播" Margin="10 5 10 5" Width="100" Click="btn2_click"/>
+        <Button Content="例3-网络会议" Margin="10 5 10 5" Width="100" Click="btn3_click"/>
+    </StackPanel>
+</Window>
