@@ -1,0 +1,16 @@
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\bin\Debug\sy1-3.exe.config
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\bin\Debug\sy1-3.exe
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\bin\Debug\sy1-3.pdb
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\obj\Debug\sy1-3.csproj.AssemblyReference.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\obj\Debug\sy1-3.csproj.SuggestedBindingRedirects.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\obj\Debug\MainWindow.g.cs
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\obj\Debug\App.g.cs
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\obj\Debug\sy1-3_MarkupCompile.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\obj\Debug\sy1-3_MarkupCompile.lref
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\obj\Debug\MainWindow.baml
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\obj\Debug\sy1-3.g.resources
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\obj\Debug\sy1_3.Properties.Resources.resources
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\obj\Debug\sy1-3.csproj.GenerateResource.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\obj\Debug\sy1-3.csproj.CoreCompileInputs.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\obj\Debug\sy1-3.exe
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy1-3\sy1-3\obj\Debug\sy1-3.pdb

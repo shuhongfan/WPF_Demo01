@@ -1,0 +1,23 @@
+﻿<Window x:Class="sy1_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sy1_3"
+        mc:Ignorable="d"
+        Title="舒洪凡——MainWindow" Height="450" Width="800">
+    <DockPanel LastChildFill="False">
+        <Label x:Name="label" Content="获取网络适配器信息" DockPanel.Dock="Top"/>
+        <Border DockPanel.Dock="Bottom" BorderBrush="Black" BorderThickness="1" >
+            <Button x:Name="button" HorizontalAlignment="Center" Padding="10 0 10 0" Content="运行" Width="Auto" Click="button_Click"/>
+        </Border>
+        <ScrollViewer Width="796">
+            <StackPanel Background="White" TextBlock.LineHeight="20">
+                <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="TextBlock" Margin="0 10 0 0"/>
+            </StackPanel>
+        </ScrollViewer>
+        
+
+    </DockPanel>
+
+</Window>

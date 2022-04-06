@@ -1,0 +1,20 @@
+﻿<Window x:Class="sy1_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sy1_2"
+        mc:Ignorable="d"
+        Title="舒洪凡——MainWindow" Height="450" Width="800">
+    <DockPanel LastChildFill="False">
+            <Label DockPanel.Dock="Top" x:Name="label" Content="DNS域名解析和IP地址转换的基本用法"/>
+            <Border DockPanel.Dock="Bottom" BorderBrush="Black" BorderThickness="1">
+                <Button HorizontalAlignment="Center" Padding="10 0 10 0" x:Name="button" Content="运行" Width="Auto" Click="button_Click"/>
+            </Border>
+            <ScrollViewer>
+                <StackPanel Background="White" TextBlock.LineHeight="20" Width="773">
+                    <TextBlock x:Name="textBlock" TextWrapping="Wrap" Margin="0 10 0 0" Text="TextBlock" />
+                </StackPanel>
+            </ScrollViewer>
+        </DockPanel>
+</Window>
