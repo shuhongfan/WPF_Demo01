@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LYku9l01x/TX/cdlUbenBzgnV+fs0x4jRnY3Fd0AC4CpQPJuJAhO8r7uRIGDvlGDV1PVESyxcf6cKc3TGZ/oXA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shuho\\Documents\\Code\\WPF_Demo01\\sy4-2\\sy4-2\\sy4-2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shuho\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\shuho\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
