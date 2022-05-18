@@ -1,0 +1,8 @@
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy6-4\sy6-4\bin\Debug\sy6-4.exe.config
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy6-4\sy6-4\bin\Debug\sy6-4.exe
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy6-4\sy6-4\bin\Debug\sy6-4.pdb
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy6-4\sy6-4\obj\Debug\sy6-4.csproj.AssemblyReference.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy6-4\sy6-4\obj\Debug\sy6-4.csproj.SuggestedBindingRedirects.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy6-4\sy6-4\obj\Debug\sy6-4.csproj.CoreCompileInputs.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy6-4\sy6-4\obj\Debug\sy6-4.exe
+C:\Users\shuho\Documents\Code\WPF_Demo01\sy6-4\sy6-4\obj\Debug\sy6-4.pdb

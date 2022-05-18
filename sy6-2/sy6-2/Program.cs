@@ -15,7 +15,8 @@ namespace sy6_2
         static void Main(string[] args)
         {
             Program p = new Program();
-            p.options.MaxDegreeOfParallelism = Environment.ProcessorCount;
+            // p.options.MaxDegreeOfParallelism = Environment.ProcessorCount;
+            p.options.MaxDegreeOfParallelism = 7;
             Console.WriteLine(Environment.ProcessorCount);
 
             p.Demo01();
