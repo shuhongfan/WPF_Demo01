@@ -1,0 +1,10 @@
+<script>
+  //数据来源：http://www.weather.com.cn/data/sk/101200401.html
+  var data =
+    '{"weatherinfo":{"city":"孝感","cityid":"101200401","temp":"19.1","WD":"北风","WS":"小于3级","SD":"95%","AP":"1002.4hPa","njd":"暂无实况","WSE":"<3","time":"17:00","sm":"4.4","isRadar":"0","Radar":""}}';
+
+  var json = JSON.parse(data);
+
+  alert("city:" + json.weatherinfo.city); //孝感
+  alert("temp:" + json.weatherinfo.cityid); //101200401
+</script>

@@ -1,0 +1,15 @@
+<script>
+  //数据来源：http://wthrcdn.etouch.cn/weather_mini?city=孝感
+  var jdata =
+    '{"data":{"yesterday":{"date":"31日星期二","high":"高温 30℃","fx":"东南风","low":"低温 24℃","fl":"<![CDATA[2级]]>","type":"多云"},"city":"孝感","forecast":[{"date":"1日星期三","high":"高温 30℃","fengli":"<![CDATA[2级]]>","low":"低温 24℃","fengxiang":"东南风","type":"多云"},{"date":"2日星期四","high":"高温 31℃","fengli":"<![CDATA[2级]]>","low":"低温 24℃","fengxiang":"东南风","type":"多云"},{"date":"3日星期五","high":"高温 29℃","fengli":"<![CDATA[2级]]>","low":"低温 24℃","fengxiang":"南风","type":"小雨"},{"date":"4日星期六","high":"高温 27℃","fengli":"<![CDATA[2级]]>","low":"低温 24℃","fengxiang":"东南风","type":"大雨"},{"date":"5日星期天","high":"高温 32℃","fengli":"<![CDATA[2级]]>","low":"低温 23℃","fengxiang":"东北风","type":"多云"}],"ganmao":"感冒低发期，天气舒适，请注意多吃蔬菜水果，多喝水哦。","wendu":"25"},"status":1000,"desc":"OK"}';
+
+  var json = JSON.parse(jdata);
+  alert("城市:" + json.data.city);
+  alert("昨日气温:" + json.data.yesterday.high + "/" + json.data.yesterday.low); //孝感
+  //用一条语句在弹窗中显示17日的气温（包括高温和低温）
+  alert(
+    "17日气温:" + json.data.forecast[0].high + "/" + json.data.forecast[0].low
+  );
+  //显示预防感冒的提示信息
+  alert("感冒:" + json.data.ganmao);
+</script>

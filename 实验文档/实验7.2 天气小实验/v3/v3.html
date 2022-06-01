@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>全国天气查询小应用</title>
+    <link rel="stylesheet" href="weather.css"/>
+    <link rel="icon" href="favicon.ico"/>
+<style>
+
+</style>
+}
+</head>
+<body>
+<audio  autoplay loop="loop">
+	<source src="">
+</audio>
+
+<header>
+    <h1><font face='cursive' color='white'><b>❄ 湖工气象站 ❄</b></font></h1>
+    <div id="weather_search">
+        <span><input id="text" type="text" placeholder="请输入您要查询的城市" /></span>
+        <span><input onclick="search()" id="btn" type="button" value=" 查询天气" /></span>
+    </div>
+</header>
+    <section>
+	<font color='white'>
+	<p align='center'><font size='30'color='white'><b>☀ ☁ ☂ ❄</b></font></p>
+        <div id="today_container">
+
+            <div>
+               <img id="myimg" src="" alt="今日天气" />
+            </div>
+
+            <div>
+                <div class="main_info"><span class="info">城市</span>|<span class="info">202X-XX-XX</span>|<span class="info">星期X</span>|<span class="info">---</span> </div>
+                <div class="more_info">今日温度：<span class="info">-----</span>风力：<span class="info">-----</span>风向：<span class="info">-----</span></div>
+            </div>
+        </div>
+        <div id="future_container">
+            <div class="future_box">
+                <span class="future_info1">202X-XX-XX</span>
+                <span class="future_info1">星期X</span>
+				 <img id="myimg1" src="" alt="天气"/>
+                <span class="future_info1">--</span><span class="future_info1"></span>
+            </div>
+            <div class="future_box">
+                <span class="future_info">202X-XX-XX</span>
+                <span class="future_info">星期X</span>
+				<img id="myimg2" src="" alt="天气"/>
+                <span class="future_info">--</span><span class="future_info">12-16℃</span>
+            </div>
+            <div class="future_box">
+                <span class="future_info">202X-XX-XX</span>
+                <span class="future_info">星期X</span>
+				<img id="myimg3" src="" alt="天气"/>
+                <span class="future_info">--</span><span class="future_info">12-16℃</span>
+            </div>
+
+            <div class="future_box">
+                <span class="future_info">202X-XX-XX</span>
+                <span class="future_info">星期X</span>
+				  <img id="myimg4" src="" alt="天气"/>
+                <span class="future_info">--</span><span class="future_info">12-16℃</span>
+            </div>
+            <div class="future_box">
+                <span class="future_info">202X-XX-XX</span>
+                <span class="future_info">星期X</span>
+				<img id="myimg5" src="" alt="天气"/>
+                <span class="future_info">-</span><span class="future_info">12-16℃</span>
+            </div>
+
+        </div>
+	</font>
+    </section>
+
+
+    <script src="v3.js"></script>
+
+
+</body>
+</html>

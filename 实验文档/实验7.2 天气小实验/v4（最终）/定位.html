@@ -1,0 +1,23 @@
+<html>
+   <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+     <title>MyFirstBaiduMap</title>
+     <script type="text/javascript" src="http://api.map.baidu.com/api?key=32ce28edca8ac5443b5d8d0a9ff91d00&v=1.1&services=true" ></script>
+ 
+   </head>
+   <body>
+     
+     <script type="text/javascript">
+            
+         var native = new BMap.LocalCity();
+         // alert(native.name);
+		 var local;
+        native.get(function(r){        
+            local=r.name;
+			 alert(local);
+         });
+		
+     </script>
+   </body>
+</html>
+
