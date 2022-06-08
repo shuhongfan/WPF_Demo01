@@ -1,0 +1,17 @@
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\bin\Debug\net6.0-windows\ChatClient.exe
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\bin\Debug\net6.0-windows\ChatClient.deps.json
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\bin\Debug\net6.0-windows\ChatClient.runtimeconfig.json
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\bin\Debug\net6.0-windows\ChatClient.dll
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\bin\Debug\net6.0-windows\ChatClient.pdb
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\obj\Debug\net6.0-windows\ChatClient.csproj.AssemblyReference.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\obj\Debug\net6.0-windows\ChatClient.Form1.resources
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\obj\Debug\net6.0-windows\ChatClient.csproj.GenerateResource.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\obj\Debug\net6.0-windows\ChatClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\obj\Debug\net6.0-windows\ChatClient.AssemblyInfoInputs.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\obj\Debug\net6.0-windows\ChatClient.AssemblyInfo.cs
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\obj\Debug\net6.0-windows\ChatClient.csproj.CoreCompileInputs.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\obj\Debug\net6.0-windows\ChatClient.dll
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\obj\Debug\net6.0-windows\refint\ChatClient.dll
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\obj\Debug\net6.0-windows\ChatClient.pdb
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\obj\Debug\net6.0-windows\ChatClient.genruntimeconfig.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\chatServer\ChatClient\obj\Debug\net6.0-windows\ref\ChatClient.dll

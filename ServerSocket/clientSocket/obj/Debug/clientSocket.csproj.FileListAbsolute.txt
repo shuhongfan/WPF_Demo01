@@ -1,0 +1,8 @@
+C:\Users\shuho\Documents\Code\WPF_Demo01\ServerSocket\clientSocket\bin\Debug\clientSocket.exe.config
+C:\Users\shuho\Documents\Code\WPF_Demo01\ServerSocket\clientSocket\bin\Debug\clientSocket.exe
+C:\Users\shuho\Documents\Code\WPF_Demo01\ServerSocket\clientSocket\bin\Debug\clientSocket.pdb
+C:\Users\shuho\Documents\Code\WPF_Demo01\ServerSocket\clientSocket\obj\Debug\clientSocket.csproj.AssemblyReference.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\ServerSocket\clientSocket\obj\Debug\clientSocket.csproj.SuggestedBindingRedirects.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\ServerSocket\clientSocket\obj\Debug\clientSocket.csproj.CoreCompileInputs.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\ServerSocket\clientSocket\obj\Debug\clientSocket.exe
+C:\Users\shuho\Documents\Code\WPF_Demo01\ServerSocket\clientSocket\obj\Debug\clientSocket.pdb
