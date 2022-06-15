@@ -1,0 +1,11 @@
+C:\Users\shuho\Documents\Code\WPF_Demo01\socketGame\socketGame\obj\Debug\net6.0-windows\socketGame.csproj.AssemblyReference.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\socketGame\socketGame\obj\Debug\net6.0-windows\GameClient.FormPlaying.resources
+C:\Users\shuho\Documents\Code\WPF_Demo01\socketGame\socketGame\obj\Debug\net6.0-windows\GameClient.FormRoom.resources
+C:\Users\shuho\Documents\Code\WPF_Demo01\socketGame\socketGame\obj\Debug\net6.0-windows\socketGame.GameClient.Properties.Resources.resources
+C:\Users\shuho\Documents\Code\WPF_Demo01\socketGame\socketGame\obj\Debug\net6.0-windows\socketGame.GameServer.Properties.Resources.resources
+C:\Users\shuho\Documents\Code\WPF_Demo01\socketGame\socketGame\obj\Debug\net6.0-windows\GameServer.ServerForm.resources
+C:\Users\shuho\Documents\Code\WPF_Demo01\socketGame\socketGame\obj\Debug\net6.0-windows\socketGame.csproj.GenerateResource.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\socketGame\socketGame\obj\Debug\net6.0-windows\socketGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shuho\Documents\Code\WPF_Demo01\socketGame\socketGame\obj\Debug\net6.0-windows\socketGame.AssemblyInfoInputs.cache
+C:\Users\shuho\Documents\Code\WPF_Demo01\socketGame\socketGame\obj\Debug\net6.0-windows\socketGame.AssemblyInfo.cs
+C:\Users\shuho\Documents\Code\WPF_Demo01\socketGame\socketGame\obj\Debug\net6.0-windows\socketGame.csproj.CoreCompileInputs.cache
